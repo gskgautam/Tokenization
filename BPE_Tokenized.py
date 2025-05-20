@@ -6,14 +6,14 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import shutil
 
 # Paths for storing tokenized data
-TOKENIZED_DATA_PATH = 'BPE_tokenized_data_numpy'
+TOKENIZED_DATA_PATH = 'Path'
 
 # List of relevant languages and tasks
 LANGUAGES = ['Armenian', 'Belarusian', 'Bulgarian', 'Hebrew', 'Persian', 'Ukrainian']
 TASKS = ['case_adj', 'case_noun', 'gender_adj', 'gender_noun', 'gender_verb', 
          'number_adj', 'number_noun', 'number_verb', 'tense_verb']
 
-BASE_PATH = 'morphology-probes/data'
+BASE_PATH = 'Path'
 
 # Dictionary to store file paths for each language
 language_files = {lang: [] for lang in LANGUAGES}
