@@ -38,3 +38,6 @@ To assess tokenization and model behavior, we support:
 - **Extrinsic Metrics** 
 
 Use the provided `Evaluation.py` script to compute all metrics once the token arrays have been generated.
+
+🖥️ Note on Performance Variability:
+Evaluation results may vary by up to ±10% depending on your hardware configuration, especially GPU type, memory bandwidth, and compute environment. This margin reflects differences in numerical precision, runtime optimizations, and stability of training dynamics during task vector extraction and calibration.
