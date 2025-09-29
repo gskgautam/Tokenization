@@ -29,6 +29,8 @@ We evaluate the tokenized data using the following large language models:
 
 - [LLaMA-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf)
 - [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+- [LLaMA-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
+- [DeepSeek-7B](https://huggingface.co/deepseek-ai/deepseek-llm-7b-base)
 
 ## 📊 Evaluation
 
